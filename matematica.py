@@ -36,3 +36,9 @@ def fibonacci(valor):
             primeiro = segundo
             segundo = aux
             print(segundo)
+            
+""" FUNÇÃO M.D.C """
+def mdc(a, b):
+    while b != 0:
+        a, b = b, a%b
+    return a
